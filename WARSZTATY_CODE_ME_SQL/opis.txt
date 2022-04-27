@@ -1,0 +1,10 @@
+Warsztaty: SQL od podstaw
+Kiedy: 13.04.2022
+Godzina: 17:00 - 20:00
+Gdzie: Online
+Trener: Przemys³aw Wojtysiak
+Zagadnienia:
+	-Pierwsze kroki z SQL
+	-Utworzenie poleceniami SQL prostej bazy danych
+	-Operacje na bazie: wyci¹ganie danych, zmiany, 	usuwanie
+Cena: 50 z³

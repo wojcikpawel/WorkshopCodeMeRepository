@@ -1,0 +1,6 @@
+1) https://caniuse.com/
+2) https://kursy.online-project.pl/
+3) Skróty klawiszowe: 	ctrl + / - zakomentowanie
+			zaznaczenie ctrl + d - jednoczesne pisanie w kilku miejsach
+			lewy alt + strza³ki - Przemieszczanie kodu w górê i w dó³
+4) https://eduj.pl/

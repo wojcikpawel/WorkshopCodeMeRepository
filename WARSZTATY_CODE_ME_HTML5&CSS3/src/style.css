@@ -1,0 +1,166 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  --primary: #fecc00;
+  --secondary: #7a7a7a;
+}
+
+.navigation-wrapper {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary);
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list-item {
+  list-style: none;
+  padding: 24px 12px;
+}
+
+.company-logo {
+  height: 90px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: color 0.1s linear;
+}
+
+.link:hover {
+  color: var(--primary);
+}
+
+.button-primary {
+  border: none;
+  color: white;
+  background-color: var(--primary);
+  padding: 12px 20px;
+  border-radius: 10px;
+  transition: background-color 0.2s linear;
+}
+
+.button-secondary {
+  border: none;
+  color: white;
+  background-color: var(--secondary);
+  padding: 12px 20px;
+  border-radius: 10px;
+  transition: background-color 0.2s linear;
+}
+
+.button-primary:hover {
+  cursor: pointer;
+  background-color: #d6ab00;
+}
+
+.container {
+  padding-top: 150px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.mb-4 {
+  margin-bottom: 24px;
+}
+
+.mb-5 {
+  margin-bottom: 48px;
+}
+
+.mt-5 {
+  margin-top: 48px;
+}
+
+.section-divider {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.person-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-logo {
+  height: 100px;
+  width: 180px;
+}
+/* ctrl + / */
+.person-photo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-item::before {
+  content: "\2022";
+  color: var(--primary);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding: none;
+  margin-bottom: 12px;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.technology {
+  transition: transform 0.2s linear;
+}
+
+.technology:hover {
+  transform: scale(1.3);
+}
